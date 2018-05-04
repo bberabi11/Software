@@ -18,7 +18,7 @@
 
 volatile uint8_t i2c_reg[I2C_N_REG];
 volatile uint8_t led_data[N_LEDS*3];
-const uint8_t init_color[3] PROGMEM = { 0x00, 0x00, 0xFF};
+const uint8_t init_color[3] PROGMEM = { 0x00, 0xFF, 0xFF};
 
 static inline void set_leds_global(void)
 {
